@@ -1,0 +1,32 @@
+{
+  "name": "t7d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "sonar": "sonar-scanner -D project.settings=./mini-games.properties",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GalactechTunisie/T7D.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GalactechTunisie/T7D/issues"
+  },
+  "homepage": "https://github.com/GalactechTunisie/T7D#readme",
+  "dependencies": {
+    "@elastic/ecs-morgan-format": "^1.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
+  }
+}

@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+data:
+  .dockerconfigjson: ewoJImF1dGhzIjogewoJCSJkb2NrZXIuZ2FsYWN0ZWNoc3R1ZGlvLmNvbSI6IHsKCQkJImF1dGgiOiAiWkc5amEyVnlPa2RBTVVCamRHVmphQT09IgoJCX0KCX0KfQo=
+metadata:
+  name: nexus-keys
+  namespace: t7d
+type: kubernetes.io/dockerconfigjson

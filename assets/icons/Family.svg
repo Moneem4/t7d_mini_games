@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.878" height="24.502" viewBox="0 0 27.878 24.502">
+  <g id="adoption" transform="translate(0 -31)">
+    <path id="Tracé_12121" data-name="Tracé 12121" d="M162.434,35.01c0-2.286-1.4-4.01-3.267-4.01a3.539,3.539,0,0,0-2.45,1.01,3.539,3.539,0,0,0-2.45-1.01C152.4,31,151,32.724,151,35.01c0,2.4,1.615,4.637,5.237,7.269l.48.349.48-.349C160.819,39.647,162.434,37.4,162.434,35.01Z" transform="translate(-142.778 0)" fill="#9ca2cf"/>
+    <path id="Tracé_12122" data-name="Tracé 12122" d="M36.588,214.267A3.27,3.27,0,0,0,33.321,211a3.267,3.267,0,1,0,0,6.534A3.27,3.27,0,0,0,36.588,214.267Z" transform="translate(-28.367 -170.199)" fill="#9ca2cf"/>
+    <circle id="Ellipse_1312" data-name="Ellipse 1312" cx="2.426" cy="2.426" r="2.426" transform="translate(11.492 45.707)" fill="#9ca2cf"/>
+    <path id="Tracé_12123" data-name="Tracé 12123" d="M367.534,214.267a3.267,3.267,0,1,0-6.534,0v3.267h6.534Z" transform="translate(-341.344 -170.199)" fill="#9ca2cf"/>
+    <path id="Tracé_12124" data-name="Tracé 12124" d="M0,335.9v3.267H9.855V335.9A4.928,4.928,0,0,0,0,335.9Z" transform="translate(0 -283.665)" fill="#9ca2cf"/>
+    <path id="Tracé_12125" data-name="Tracé 12125" d="M335.9,331a4.9,4.9,0,0,0-4.9,4.9v3.267h9.855V335.9A4.947,4.947,0,0,0,335.9,331Z" transform="translate(-312.977 -283.665)" fill="#9ca2cf"/>
+    <path id="Tracé_12126" data-name="Tracé 12126" d="M211,393.45v2.45h4.9v-2.45a2.45,2.45,0,1,0-4.9,0Z" transform="translate(-199.511 -340.398)" fill="#9ca2cf"/>
+  </g>
+</svg>

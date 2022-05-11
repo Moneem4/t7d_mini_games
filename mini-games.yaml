@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: t7d-mini-games
+  labels:
+    app: t7d-mini-games
+  namespace: t7d
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: t7d-mini-games
+  template:
+    metadata:
+      labels:
+        app:  t7d-mini-games
+    spec:
+      imagePullSecrets:
+        - name: nexus-keys
+      containers:
+        - name: t7d-mini-games
+          image: docker.galactechstudio.com/t7d-mini-games:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: t7d-mini-games
+  namespace: t7d
+spec:
+  selector:
+    app: t7d-mini-games
+  ports:
+    - protocol: TCP
+      port: 30002
+      targetPort: 3000

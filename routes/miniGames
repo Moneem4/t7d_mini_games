@@ -1,0 +1,24 @@
+const express = require('express');
+const router = express.Router();
+
+const {
+  addMiniGame,
+  allMiniGames,
+  updateOneMiniGame,
+  deleteOneMiniGame,
+  findGameById,
+  allMiniGamesByKinds,
+  updateMiniGamesByKind,
+  getKindsNamesAndIcons,
+} = require('../controllers/miniGames.controller');
+
+router.post('/addMiniGame', addMiniGame);
+router.get('/allMiniGames', allMiniGames);
+router.put('/updateOneMiniGame/:id', updateOneMiniGame);
+router.get('/deleteOneMiniGame/:id', deleteOneMiniGame);
+router.get('/findGameById/:id', findGameById);
+router.post('/allMiniGamesByKinds', allMiniGamesByKinds);
+router.post('/updateMiniGamesByKind', updateMiniGamesByKind);
+router.get('/getKindsNamesAndIcons', getKindsNamesAndIcons);
+
+module.exports = router;
